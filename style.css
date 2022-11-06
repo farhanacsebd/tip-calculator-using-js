@@ -6,7 +6,10 @@
 body{
     font-family: 'Redressed', cursive;
     height: 100vh;
-    background-color: #f9f9f9;
+    background-image: url(/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     font-size: 22px;
     position: relative;
 }
@@ -15,9 +18,8 @@ body{
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
-    width: 450px;
+    width: 480px;
     background-color: #FFF;
-    border-radius: 18px;
     text-align: center;
     box-shadow: 1px 1px 13px rgb(0 0 0 / 10%);
 }
@@ -29,6 +31,12 @@ h1{
 p{
     color: #7e7e7e;
 }
+
+.p-tag{
+    text-align: left;
+    margin-left: 15%;
+}
+
 .control{
     margin: 20px 0;
 }
@@ -58,21 +66,20 @@ button#calculate{
     font-size: 17px;
     border-radius: 25px;
     padding: 14px 29px;
-    margin: 25px;
+    margin: 20px;
     transition: all .3s ease;
 }
 button#calculate:hover{
-    color: #16a465;
-    border-color: #16a465;
+    color: #428dd4;
+    border-color: #428dd4;
     background: white;
 }
 .totalTip{
-    background-color: #cef5e4;
-    border-radius: 18px;
-    padding: 25px 0 35px;
+    background-color: #cee2f5;
+    padding: 15px 0 15px;
 }
 p.tip{
-    font-size: 38px;
-    color: #009855;
-    margin-top: 10px;
+    font-size: 35px;
+    color: #428dd4;
+    margin-top: 5px;
 }

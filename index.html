@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tip Cal</title>
+    <title>Tip Calculator</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -12,14 +12,14 @@
         <h1>Tip Calculator</h1>
         <form action="">
             <div class="control">
-                <p>Enter Total Bill</p>
+                <p class="p-tag">How much the bill?</p>
                 <p class="input">
                     $
-                    <input placeholder="000">
+                    <input placeholder="0000">
                 </p>
             </div>
             <div class="control">
-                <p>Choose Your Tip</p>
+                <p class="p-tag">How was your service?</p>
                 <select class="form-select" id="inputGroupSelect01">
                     <option selected>Choose an option</option>
                     <option value="0.3">30% - Outsanding</option>
@@ -30,7 +30,7 @@
                   </select>
             </div>
         </form>
-        <p>Split the bill into</p>
+        <p class="p-tag">How many are sharing the bill?</p>
         <input placeholder="00"> <br>
         <button id="calculate">Calculate</button>
         <div class="totalTip">
