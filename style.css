@@ -67,12 +67,14 @@ button#calculate{
     border-radius: 25px;
     padding: 14px 29px;
     margin: 20px;
+    font-weight: bold;
     transition: all .3s ease;
 }
 button#calculate:hover{
     color: #428dd4;
     border-color: #428dd4;
     background: white;
+    font-weight: bold;
 }
 .totalTip{
     background-color: #cee2f5;
